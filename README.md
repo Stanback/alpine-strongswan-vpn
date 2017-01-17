@@ -184,9 +184,9 @@ NetworkManager plugin (in Ubuntu, the package is called
 
 This configuration attemps to balance higher grade ciphers with
 performance and compatibility with the lastest versions of OSX,
-Windows, Linux, and mobile devices. The list of cipher is intentionally
-kept short, uses can always modify the list if they desire higher grade
-encryption.
+Windows, Linux, and mobile devices. The list of ciphers is intentionally
+kept short, users can always modify the list if higher grade
+encryption is desired.
 
 This build uses OpenSSL rather than LibreSSL in order to support
 the NIST Elliptic Curves (ecp256, etc). In addition, OpenSSL provides
