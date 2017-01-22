@@ -73,6 +73,15 @@ Ensure the config folder is in your current directory ($PWD) and run:
 You can append arguments like `starter --nofork --debug` to
 get debug output. Run `--help` for list of arguments.
 
+You may need to enable packet forwarding and ndp proxying on your
+docker host via sysctl or /etc/sysctl.conf:
+
+```
+sudo sysctl net.ipv4.ip_forward=1
+sudo sysctl net.ipv6.conf.all.forwarding=1
+sudo sysctl net.ipv6.conf.all.proxy_ndp=1
+```
+
 ### Check status
 
 There are various ways to check on StrongSwan, including tailing
