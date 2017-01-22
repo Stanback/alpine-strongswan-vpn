@@ -80,6 +80,7 @@ docker host via sysctl or /etc/sysctl.conf:
 sudo sysctl net.ipv4.ip_forward=1
 sudo sysctl net.ipv6.conf.all.forwarding=1
 sudo sysctl net.ipv6.conf.all.proxy_ndp=1
+sudo iptables -A FORWARD -j ACCEPT
 ```
 
 ### Check status
