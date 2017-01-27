@@ -25,6 +25,7 @@ RUN apk --update add build-base \
             --enable-aesni \
             --enable-chapoly \
             --enable-cmd \
+            --enable-connmark \
             --enable-dhcp \
             --enable-eap-dynamic \
             --enable-eap-identity \
@@ -34,6 +35,7 @@ RUN apk --update add build-base \
             --enable-eap-tls \
             --enable-farp \
             --enable-files \
+            --enable-forecast \
             --enable-gcm \
             --enable-md4 \
             --enable-newhope \
