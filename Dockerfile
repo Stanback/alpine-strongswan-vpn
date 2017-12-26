@@ -61,4 +61,4 @@ EXPOSE 500/udp \
        4500/udp
 
 ENTRYPOINT ["/usr/sbin/ipsec"]
-CMD ["starter", "--nofork"]
+CMD ["start", "--nofork"]

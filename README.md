@@ -70,7 +70,7 @@ Ensure the config folder is in your current directory ($PWD) and run:
       --name=strongswan \
       stanback/alpine-strongswan-vpn
 
-You can append arguments like `starter --nofork --debug` to
+You can append arguments like `start --nofork --debug` to
 get debug output. Run `--help` for list of arguments.
 
 You may need to enable packet forwarding and ndp proxying on your
