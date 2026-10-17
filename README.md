@@ -1,3 +1,11 @@
+> **Archived — October 16, 2026**
+>
+> This historical strongSwan VPN container and configuration are no longer maintained. The build, client guidance, and cryptographic configuration have not been validated against current releases.
+>
+> Source and history remain available for reference; no further updates or support are planned.
+
+---
+
 # StrongSwan VPN + Alpine Linux
 
 This repository contains a Dockerfile for generating
